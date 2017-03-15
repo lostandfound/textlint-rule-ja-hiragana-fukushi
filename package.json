@@ -21,6 +21,10 @@
   "directories": {
     "test": "test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lostandfound/textlint-rule-ja-hiragana-fukushi.git"
+  },
   "author": "Hiroshi Takase",
   "license": "MIT",
   "description": "Check easy-to-read Fukushi(adverbs) written in Hiragana than Kanji.",
