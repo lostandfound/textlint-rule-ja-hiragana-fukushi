@@ -1,8 +1,8 @@
 message: ひらがなで表記したほうが読みやすい副詞
 dict:
   -
-    fix_form: あいにく
-    supplemental:
+    expected: あいにく
+    extensions: {}
     tokens:
       -
         surface_form: "生憎"
@@ -16,8 +16,8 @@ dict:
         reading: "アイニク"
         pronunciation: "アイニク"
   -
-    fix_form: あえて
-    supplemental:
+    expected: あえて
+    extensions: {}
     tokens:
       -
         surface_form: "敢えて"
@@ -31,8 +31,8 @@ dict:
         reading: "アエテ"
         pronunciation: "アエテ"
   -
-    fix_form: あくまで
-    supplemental:
+    expected: あくまで
+    extensions: {}
     tokens:
       -
         surface_form: "飽くまで"
@@ -46,8 +46,8 @@ dict:
         reading: "アクマデ"
         pronunciation: "アクマデ"
   -
-    fix_form: あくまで
-    supplemental:
+    expected: あくまで
+    extensions: {}
     tokens:
       -
         surface_form: "飽く迄"
@@ -61,8 +61,8 @@ dict:
         reading: "アクマデ"
         pronunciation: "アクマデ"
   -
-    fix_form: うすうす
-    supplemental:
+    expected: うすうす
+    extensions: {}
     tokens:
       -
         surface_form: "薄々"
@@ -76,8 +76,8 @@ dict:
         reading: "ウスウス"
         pronunciation: "ウスウス"
   -
-    fix_form: あらかじめ
-    supplemental:
+    expected: あらかじめ
+    extensions: {}
     tokens:
       -
         surface_form: "予め"
@@ -91,8 +91,8 @@ dict:
         reading: "アラカジメ"
         pronunciation: "アラカジメ"
   -
-    fix_form: あらかた
-    supplemental:
+    expected: あらかた
+    extensions: {}
     tokens:
       -
         surface_form: "粗方"
@@ -106,8 +106,8 @@ dict:
         reading: "アラカタ"
         pronunciation: "アラカタ"
   -
-    fix_form: あらためて
-    supplemental:
+    expected: あらためて
+    extensions: {}
     tokens:
       -
         surface_form: "改めて"
@@ -121,8 +121,8 @@ dict:
         reading: "アラタメテ"
         pronunciation: "アラタメテ"
   -
-    fix_form: いかに
-    supplemental:
+    expected: いかに
+    extensions: {}
     tokens:
       -
         surface_form: "如何に"
@@ -136,8 +136,8 @@ dict:
         reading: "イカニ"
         pronunciation: "イカニ"
   -
-    fix_form: いかにも
-    supplemental:
+    expected: いかにも
+    extensions: {}
     tokens:
       -
         surface_form: "如何にも"
@@ -151,7 +151,7 @@ dict:
         reading: "イカニモ"
         pronunciation: "イカニモ"
   -
-    fix_form: いたずらに
+    expected: いたずらに
     tokens:
       -
         surface_form: "徒に"
@@ -165,8 +165,8 @@ dict:
         reading: "イタズラニ"
         pronunciation: "イタズラニ"
   -
-    fix_form: いちはやく
-    supplemental:
+    expected: いちはやく
+    extensions: {}
     tokens:
       -
         surface_form: "いち早く"
@@ -180,8 +180,8 @@ dict:
         reading: "イチハヤク"
         pronunciation: "イチハヤク"
   -
-    fix_form: いまだに
-    supplemental:
+    expected: いまだに
+    extensions: {}
     tokens:
       -
         surface_form: "未だに"
@@ -195,8 +195,8 @@ dict:
         reading: "イマダニ"
         pronunciation: "イマダニ"
   -
-    fix_form: いやしくも
-    supplemental:
+    expected: いやしくも
+    extensions: {}
     tokens:
       -
         surface_form: "苟も"
@@ -210,8 +210,8 @@ dict:
         reading: "イヤシクモ"
         pronunciation: "イヤシクモ"
   -
-    fix_form: いわば
-    supplemental:
+    expected: いわば
+    extensions: {}
     tokens:
       -
         surface_form: "言わば"
@@ -225,8 +225,8 @@ dict:
         reading: "イワバ"
         pronunciation: "イワバ"
   -
-    fix_form: うすうす
-    supplemental:
+    expected: うすうす
+    extensions: {}
     tokens:
       -
         surface_form: "薄々"
@@ -240,8 +240,8 @@ dict:
         reading: "ウスウス"
         pronunciation: "ウスウス"
   -
-    fix_form: おおむね
-    supplemental:
+    expected: おおむね
+    extensions: {}
     tokens:
       -
         surface_form: "概ね"
@@ -255,8 +255,8 @@ dict:
         reading: "オオムネ"
         pronunciation: "オームネ"
   -
-    fix_form: おしなべて
-    supplemental:
+    expected: おしなべて
+    extensions: {}
     tokens:
       -
         surface_form: "押し並べて"
@@ -270,8 +270,8 @@ dict:
         reading: "オシナベテ"
         pronunciation: "オシナベテ"
   -
-    fix_form: おしなべて
-    supplemental:
+    expected: おしなべて
+    extensions: {}
     tokens:
       -
         surface_form: "押しなべて"
@@ -285,8 +285,8 @@ dict:
         reading: "オシナベテ"
         pronunciation: "オシナベテ"
   -
-    fix_form: おのずから
-    supplemental:
+    expected: おのずから
+    extensions: {}
     tokens:
       -
         surface_form: "自ずから"
@@ -300,8 +300,8 @@ dict:
         reading: "オノズカラ"
         pronunciation: "オノズカラ"
   -
-    fix_form: おのずと
-    supplemental:
+    expected: おのずと
+    extensions: {}
     tokens:
       -
         surface_form: "自ずと"
@@ -315,8 +315,8 @@ dict:
         reading: "オノズト"
         pronunciation: "オノズト"
   -
-    fix_form: およそ
-    supplemental:
+    expected: およそ
+    extensions: {}
     tokens:
       -
         surface_form: "凡そ"
@@ -330,8 +330,8 @@ dict:
         reading: "オヨソ"
         pronunciation: "オヨソ"
   -
-    fix_form: かえって
-    supplemental:
+    expected: かえって
+    extensions: {}
     tokens:
       -
         surface_form: "却って"
@@ -345,8 +345,8 @@ dict:
         reading: "カエッテ"
         pronunciation: "カエッテ"
   -
-    fix_form: かつ
-    supplemental:
+    expected: かつ
+    extensions: {}
     tokens:
       -
         surface_form: "且つ"
@@ -360,8 +360,8 @@ dict:
         reading: "カツ"
         pronunciation: "カツ"
   -
-    fix_form: かつて
-    supplemental:
+    expected: かつて
+    extensions: {}
     tokens:
       -
         surface_form: "嘗て"
@@ -375,8 +375,8 @@ dict:
         reading: "カツテ"
         pronunciation: "カツテ"
   -
-    fix_form: かねて
-    supplemental:
+    expected: かねて
+    extensions: {}
     tokens:
       -
         surface_form: "予て"
@@ -390,8 +390,8 @@ dict:
         reading: "カネテ"
         pronunciation: "カネテ"
   -
-    fix_form: ことごとく
-    supplemental:
+    expected: ことごとく
+    extensions: {}
     tokens:
       -
         surface_form: "悉く"
@@ -405,8 +405,8 @@ dict:
         reading: "コトゴトク"
         pronunciation: "コトゴトク"
   -
-    fix_form: ことごとく
-    supplemental:
+    expected: ことごとく
+    extensions: {}
     tokens:
       -
         surface_form: "尽く"
@@ -420,8 +420,8 @@ dict:
         reading: "コトゴトク"
         pronunciation: "コトゴトク"
   -
-    fix_form: こまごま
-    supplemental:
+    expected: こまごま
+    extensions: {}
     tokens:
       -
         surface_form: "細々"
@@ -435,8 +435,8 @@ dict:
         reading: "コマゴマ"
         pronunciation: "コマゴマ"
   -
-    fix_form: さらに
-    supplemental:
+    expected: さらに
+    extensions: {}
     tokens:
       -
         surface_form: "更に"
@@ -450,8 +450,8 @@ dict:
         reading: "サラニ"
         pronunciation: "サラニ"
   -
-    fix_form: しきりに
-    supplemental:
+    expected: しきりに
+    extensions: {}
     tokens:
       -
         surface_form: "頻りに"
@@ -465,8 +465,8 @@ dict:
         reading: "シキリニ"
         pronunciation: "シキリニ"
   -
-    fix_form: しばらく
-    supplemental:
+    expected: しばらく
+    extensions: {}
     tokens:
       -
         surface_form: "暫く"
@@ -480,8 +480,8 @@ dict:
         reading: "シバラク"
         pronunciation: "シバラク"
   -
-    fix_form: しょせん
-    supplemental:
+    expected: しょせん
+    extensions: {}
     tokens:
       -
         surface_form: "所詮"
@@ -495,8 +495,8 @@ dict:
         reading: "ショセン"
         pronunciation: "ショセン"
   -
-    fix_form: すこぶる
-    supplemental:
+    expected: すこぶる
+    extensions: {}
     tokens:
       -
         surface_form: "頗る"
@@ -510,8 +510,8 @@ dict:
         reading: "スコブル"
         pronunciation: "スコブル"
   -
-    fix_form: せいいっぱい
-    supplemental:
+    expected: せいいっぱい
+    extensions: {}
     tokens:
       -
         surface_form: "精一杯"
@@ -525,8 +525,8 @@ dict:
         reading: "セイイッパイ"
         pronunciation: "セイイッパイ"
   -
-    fix_form: せっかく
-    supplemental:
+    expected: せっかく
+    extensions: {}
     tokens:
       -
         surface_form: "折角"
@@ -540,8 +540,8 @@ dict:
         reading: "セッカク"
         pronunciation: "セッカク"
   -
-    fix_form: ぜひ
-    supplemental:
+    expected: ぜひ
+    extensions: {}
     tokens:
       -
         surface_form: "是非"
@@ -555,8 +555,8 @@ dict:
         reading: "ゼヒ"
         pronunciation: "ゼヒ"
   -
-    fix_form: ぜひとも
-    supplemental:
+    expected: ぜひとも
+    extensions: {}
     tokens:
       -
         surface_form: "是非"
@@ -581,8 +581,8 @@ dict:
         reading: "トモ"
         pronunciation: "トモ"
   -
-    fix_form: たくさん
-    supplemental:
+    expected: たくさん
+    extensions: {}
     tokens:
       -
         surface_form: "沢山"
@@ -596,8 +596,8 @@ dict:
         reading: "タクサン"
         pronunciation: "タクサン"
   -
-    fix_form: たちどころに
-    supplemental:
+    expected: たちどころに
+    extensions: {}
     tokens:
       -
         surface_form: "立ち所に"
@@ -611,8 +611,8 @@ dict:
         reading: "タチドコロニ"
         pronunciation: "タチドコロニ"
   -
-    fix_form: たとえ
-    supplemental:
+    expected: たとえ
+    extensions: {}
     tokens:
       -
         surface_form: "仮令"
@@ -626,8 +626,8 @@ dict:
         reading: "タトエ"
         pronunciation: "タトエ"
   -
-    fix_form: たとえ
-    supplemental:
+    expected: たとえ
+    extensions: {}
     tokens:
       -
         surface_form: "縦令"
@@ -641,8 +641,8 @@ dict:
         reading: "タトエ"
         pronunciation: "タトエ"
   -
-    fix_form: ちょうど
-    supplemental:
+    expected: ちょうど
+    extensions: {}
     tokens:
       -
         surface_form: "丁度"
@@ -656,8 +656,8 @@ dict:
         reading: "チョウド"
         pronunciation: "チョード"
   -
-    fix_form: とくと
-    supplemental:
+    expected: とくと
+    extensions: {}
     tokens:
       -
         surface_form: "篤と"
@@ -671,8 +671,8 @@ dict:
         reading: "トクト"
         pronunciation: "トクト"
   -
-    fix_form: どだい
-    supplemental:
+    expected: どだい
+    extensions: {}
     tokens:
       -
         surface_form: "土台"
@@ -686,8 +686,8 @@ dict:
         reading: "ドダイ"
         pronunciation: "ドダイ"
   -
-    fix_form: とりわけ
-    supplemental:
+    expected: とりわけ
+    extensions: {}
     tokens:
       -
         surface_form: "取り分け"
@@ -701,8 +701,8 @@ dict:
         reading: "トリワケ"
         pronunciation: "トリワケ"
   -
-    fix_form: なぜ
-    supplemental:
+    expected: なぜ
+    extensions: {}
     tokens:
       -
         surface_form: "何故"
@@ -716,8 +716,8 @@ dict:
         reading: "ナゼ"
         pronunciation: "ナゼ"
   -
-    fix_form: ひとえに
-    supplemental:
+    expected: ひとえに
+    extensions: {}
     tokens:
       -
         surface_form: "偏に"
@@ -731,8 +731,8 @@ dict:
         reading: "ヒトエニ"
         pronunciation: "ヒトエニ"
   -
-    fix_form: ひときわ
-    supplemental:
+    expected: ひときわ
+    extensions: {}
     tokens:
       -
         surface_form: "一際"
@@ -746,8 +746,8 @@ dict:
         reading: "ヒトキワ"
         pronunciation: "ヒトキワ"
   -
-    fix_form: ひとしお
-    supplemental:
+    expected: ひとしお
+    extensions: {}
     tokens:
       -
         surface_form: "一入"
@@ -761,8 +761,8 @@ dict:
         reading: "ヒトシオ"
         pronunciation: "ヒトシオ"
   -
-    fix_form: ひとまず
-    supplemental:
+    expected: ひとまず
+    extensions: {}
     tokens:
       -
         surface_form: "一先ず"
@@ -776,8 +776,8 @@ dict:
         reading: "ヒトマズ"
         pronunciation: "ヒトマズ"
   -
-    fix_form: ひとりでに
-    supplemental:
+    expected: ひとりでに
+    extensions: {}
     tokens:
       -
         surface_form: "独りでに"
@@ -791,8 +791,8 @@ dict:
         reading: "ヒトリデニ"
         pronunciation: "ヒトリデニ"
   -
-    fix_form: ほとんど
-    supplemental:
+    expected: ほとんど
+    extensions: {}
     tokens:
       -
         surface_form: "殆ど"
@@ -806,8 +806,8 @@ dict:
         reading: "ホトンド"
         pronunciation: "ホトンド"
   -
-    fix_form: まさしく
-    supplemental:
+    expected: まさしく
+    extensions: {}
     tokens:
       -
         surface_form: "正しく"
@@ -821,8 +821,8 @@ dict:
         reading: "マサシク"
         pronunciation: "マサシク"
   -
-    fix_form: まさに
-    supplemental:
+    expected: まさに
+    extensions: {}
     tokens:
       -
         surface_form: "正に"
@@ -836,8 +836,8 @@ dict:
         reading: "マサニ"
         pronunciation: "マサニ"
   -
-    fix_form: まして
-    supplemental:
+    expected: まして
+    extensions: {}
     tokens:
       -
         surface_form: "況して"
@@ -851,8 +851,8 @@ dict:
         reading: "マシテ"
         pronunciation: "マシテ"
   -
-    fix_form: まず
-    supplemental:
+    expected: まず
+    extensions: {}
     tokens:
       -
         surface_form: "先ず"
@@ -866,8 +866,8 @@ dict:
         reading: "マズ"
         pronunciation: "マズ"
   -
-    fix_form: まるで
-    supplemental:
+    expected: まるで
+    extensions: {}
     tokens:
       -
         surface_form: "丸"
@@ -892,8 +892,8 @@ dict:
         reading: "デ"
         pronunciation: "デ"
   -
-    fix_form: まんざら
-    supplemental:
+    expected: まんざら
+    extensions: {}
     tokens:
       -
         surface_form: "満更"
@@ -907,8 +907,8 @@ dict:
         reading: "マンザラ"
         pronunciation: "マンザラ"
   -
-    fix_form: むげに
-    supplemental:
+    expected: むげに
+    extensions: {}
     tokens:
       -
         surface_form: "無碍"
@@ -933,8 +933,8 @@ dict:
         reading: "ニ"
         pronunciation: "ニ"
   -
-    fix_form: むしろ
-    supplemental:
+    expected: むしろ
+    extensions: {}
     tokens:
       -
         surface_form: "寧ろ"
@@ -948,8 +948,8 @@ dict:
         reading: "ムシロ"
         pronunciation: "ムシロ"
   -
-    fix_form: 無理やり
-    supplemental:
+    expected: 無理やり
+    extensions: {}
     tokens:
       -
         surface_form: "無理矢理"
@@ -963,8 +963,8 @@ dict:
         reading: "ムリヤリ"
         pronunciation: "ムリヤリ"
   -
-    fix_form: めっぽう
-    supplemental:
+    expected: めっぽう
+    extensions: {}
     tokens:
       -
         surface_form: "滅法"
@@ -978,8 +978,8 @@ dict:
         reading: "メッポウ"
         pronunciation: "メッポー"
   -
-    fix_form: もしも
-    supplemental:
+    expected: もしも
+    extensions: {}
     tokens:
       -
         surface_form: "若しも"
@@ -993,8 +993,8 @@ dict:
         reading: "モシモ"
         pronunciation: "モシモ"
   -
-    fix_form: もしくは
-    supplemental:
+    expected: もしくは
+    extensions: {}
     tokens:
       -
         surface_form: "若しくは"
@@ -1008,8 +1008,8 @@ dict:
         reading: "モシクハ"
         pronunciation: "モシクワ"
   -
-    fix_form: もちろん
-    supplemental:
+    expected: もちろん
+    extensions: {}
     tokens:
       -
         surface_form: "勿論"
@@ -1023,8 +1023,8 @@ dict:
         reading: "モチロン"
         pronunciation: "モチロン"
   -
-    fix_form: もともと
-    supplemental:
+    expected: もともと
+    extensions: {}
     tokens:
       -
         surface_form: "元々"
@@ -1038,8 +1038,8 @@ dict:
         reading: "モトモト"
         pronunciation: "モトモト"
   -
-    fix_form: もとより
-    supplemental:
+    expected: もとより
+    extensions: {}
     tokens:
       -
         surface_form: "素より"
@@ -1053,8 +1053,8 @@ dict:
         reading: "モトヨリ"
         pronunciation: "モトヨリ"
   -
-    fix_form: もはや
-    supplemental:
+    expected: もはや
+    extensions: {}
     tokens:
       -
         surface_form: "最早"
@@ -1068,8 +1068,8 @@ dict:
         reading: "モハヤ"
         pronunciation: "モハヤ"
   -
-    fix_form: やはり
-    supplemental:
+    expected: やはり
+    extensions: {}
     tokens:
       -
         surface_form: "矢"
@@ -1094,8 +1094,8 @@ dict:
         reading: "バリ"
         pronunciation: "バリ"
   -
-    fix_form: やっぱり
-    supplemental:
+    expected: やっぱり
+    extensions: {}
     tokens:
       -
         surface_form: "矢"
@@ -1131,8 +1131,8 @@ dict:
         reading: "ハリ"
         pronunciation: "ハリ"
   -
-    fix_form: ようやく
-    supplemental:
+    expected: ようやく
+    extensions: {}
     tokens:
       -
         surface_form: "漸く"
@@ -1146,8 +1146,8 @@ dict:
         reading: "ヨウヤク"
         pronunciation: "ヨーヤク"
   -
-    fix_form: よほど
-    supplemental:
+    expected: よほど
+    extensions: {}
     tokens:
       -
         surface_form: "余程"
@@ -1161,8 +1161,8 @@ dict:
         reading: "ヨホド"
         pronunciation: "ヨホド"
   -
-    fix_form: わずかに
-    supplemental:
+    expected: わずかに
+    extensions: {}
     tokens:
       -
         surface_form: "僅か"

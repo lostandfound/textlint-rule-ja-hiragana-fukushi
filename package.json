@@ -15,6 +15,7 @@
     "prepublish": "npm run --if-present build"
   },
   "devDependencies": {
+    "eslint": "^3.17.1",
     "textlint-scripts": "^1.2.2"
   },
   "name": "textlint-rule-ja-hiragana-fukushi",
