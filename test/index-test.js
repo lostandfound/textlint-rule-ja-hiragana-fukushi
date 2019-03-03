@@ -56,6 +56,17 @@ tester.run("rule", rule, {
                 }
             ]
         },
+        {
+            text: "最も負荷が少ない",
+            output: "もっとも負荷が少ない",
+            errors: [
+                {
+                    message: "ひらがなで表記したほうが読みやすい副詞: \"最も\" => \"もっとも\"",
+                    line: 1,
+                    column: 1
+                }
+            ]
+        },
         // multiple match
         {
             text: `僕は敢えて怠っていると言う。
