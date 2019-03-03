@@ -45,6 +45,17 @@ tester.run("rule", rule, {
                 }
             ]
         },
+        {
+            text: "既に解決した",
+            output: "すでに解決した",
+            errors: [
+                {
+                    message: "ひらがなで表記したほうが読みやすい副詞: \"既に\" => \"すでに\"",
+                    line: 1,
+                    column: 1
+                }
+            ]
+        },
         // multiple match
         {
             text: `僕は敢えて怠っていると言う。

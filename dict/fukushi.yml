@@ -516,6 +516,12 @@ dict:
         reading: "スコブル"
         pronunciation: "スコブル"
   -
+    expected: すでに
+    tokens:
+      -
+        surface_form: "既に"
+        pos: "副詞"
+  -
     expected: せいいっぱい
     extensions: {}
     tokens:
