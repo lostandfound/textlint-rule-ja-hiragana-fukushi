@@ -57,6 +57,7 @@ Test textlint rule by [textlint-tester](https://github.com/textlint/textlint-tes
 | 敢えて | あえて |
 | 飽くまで | あくまで |
 | 飽く迄 | あくまで |
+| 一旦 | いったん |
 | 薄々 | うすうす |
 | 予め | あらかじめ |
 | 粗方 | あらかた |
@@ -87,6 +88,7 @@ Test textlint rule by [textlint-tester](https://github.com/textlint/textlint-tes
 | 暫く | しばらく |
 | 所詮 | しょせん |
 | 頗る | すこぶる |
+| 既に | すでに |
 | 精一杯 | せいいっぱい |
 | 折角 | せっかく |
 | 是非 | ぜひ |
@@ -119,6 +121,7 @@ Test textlint rule by [textlint-tester](https://github.com/textlint/textlint-tes
 | 若しも | もしも |
 | 若しくは | もしくは |
 | 勿論 | もちろん |
+| 最も | もっとも |
 | 元々 | もともと |
 | 素より | もとより |
 | 最早 | もはや |
