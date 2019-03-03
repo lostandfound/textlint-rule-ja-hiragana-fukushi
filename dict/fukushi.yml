@@ -61,6 +61,12 @@ dict:
         reading: "アクマデ"
         pronunciation: "アクマデ"
   -
+    expected: いったん
+    tokens:
+      -
+        surface_form: "一旦"
+        pos: "副詞"
+  -
     expected: うすうす
     extensions: {}
     tokens:

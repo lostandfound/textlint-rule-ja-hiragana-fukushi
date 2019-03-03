@@ -34,6 +34,17 @@ tester.run("rule", rule, {
                 }
             ]
         },
+        {
+            text: "一旦初期設定に戻す",
+            output: "いったん初期設定に戻す",
+            errors: [
+                {
+                    message: "ひらがなで表記したほうが読みやすい副詞: \"一旦\" => \"いったん\"",
+                    line: 1,
+                    column: 1
+                }
+            ]
+        },
         // multiple match
         {
             text: `僕は敢えて怠っていると言う。
