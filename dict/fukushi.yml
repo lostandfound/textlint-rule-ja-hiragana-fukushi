@@ -61,6 +61,12 @@ dict:
         reading: "アクマデ"
         pronunciation: "アクマデ"
   -
+    expected: いったん
+    tokens:
+      -
+        surface_form: "一旦"
+        pos: "副詞"
+  -
     expected: うすうす
     extensions: {}
     tokens:
@@ -509,6 +515,12 @@ dict:
         basic_form: "頗る"
         reading: "スコブル"
         pronunciation: "スコブル"
+  -
+    expected: すでに
+    tokens:
+      -
+        surface_form: "既に"
+        pos: "副詞"
   -
     expected: せいいっぱい
     extensions: {}
@@ -1022,6 +1034,12 @@ dict:
         basic_form: "勿論"
         reading: "モチロン"
         pronunciation: "モチロン"
+  -
+    expected: もっとも
+    tokens:
+      -
+        surface_form: "最も"
+        pos: "副詞"
   -
     expected: もともと
     extensions: {}
