@@ -1,0 +1,32 @@
+message: ひらがなで表記したほうが読みやすい副詞
+dict:
+  -
+    expected: あいにく
+    extensions: {}
+    tokens:
+      -
+        surface_form: "生憎"
+        pos: "副詞"
+        pos_detail_1: "一般"
+        pos_detail_2: "*"
+        pos_detail_3: "*"
+        conjugated_type: "*"
+        conjugated_form: "*"
+        basic_form: "生憎"
+        reading: "アイニク"
+        pronunciation: "アイニク"
+  -
+    expected: あえて
+    extensions: {}
+    tokens:
+      -
+        surface_form: "敢えて"
+        pos: "副詞"
+        pos_detail_1: "一般"
+        pos_detail_2: "*"
+        pos_detail_3: "*"
+        conjugated_type: "*"
+        conjugated_form: "*"
+        basic_form: "敢えて"
+        reading: "アエテ"
+        pronunciation: "アエテ"

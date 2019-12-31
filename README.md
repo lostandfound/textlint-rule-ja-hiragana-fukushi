@@ -22,6 +22,18 @@ Via `.textlintrc`(Recommended)
 }
 ```
 
+Or you can specify custom dictionary as follows:
+
+```json
+{
+    "rules": {
+        "ja-hiragana-fukushi": {
+          "rulePath": "path/to/fukushi.yml"
+        }
+    }
+}
+```
+
 Via CLI
 
 ```
