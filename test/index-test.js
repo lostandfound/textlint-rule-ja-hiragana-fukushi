@@ -8,6 +8,12 @@ tester.run("rule", rule, {
     valid: [
         // no problem
         "text",
+        {
+            text: "正しく記載されていなかった。",
+            options: {
+                rulePath: "./test/fukushi.test.yml"
+            }
+        }
     ],
 
     invalid: [
@@ -87,7 +93,34 @@ tester.run("rule", rule, {
                     column: 1
                 }
             ]
+        },
+        // custom dictionary
+        {
+            text: "正しく記載されていなかった。",
+            output: "まさしく記載されていなかった。",
+            errors: [
+                {
+                    message: "ひらがなで表記したほうが読みやすい副詞: \"正しく\" => \"まさしく\"",
+                    line: 1,
+                    column: 1
+                }
+            ]
+        },
+        {
+            text: "僕は生憎風流人よりもずつと多慾に生まれついてゐる。",
+            output: "僕はあいにく風流人よりもずつと多慾に生まれついてゐる。",
+            options: {
+                rulePath: "./test/fukushi.test.yml"
+            },
+            errors: [
+                {
+                    message: "ひらがなで表記したほうが読みやすい副詞: \"生憎\" => \"あいにく\"",
+                    line: 1,
+                    column: 3
+                }
+            ]
         }
+
     ]
 
 });

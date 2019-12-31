@@ -4,25 +4,40 @@ const fs = require("fs");
 const kuromojin = require("kuromojin");
 const createMatcher = require("morpheme-match-all");
 const yaml = require("js-yaml");
-const data = yaml.safeLoad(fs.readFileSync(__dirname + "/../dict/fukushi.yml", "utf8"));
 
-const dictionaries = [];
+const path = require("path");
+const untildify = require("untildify");
 
-data.dict.forEach(function (item) {
-  var form = "";
-  item.tokens.forEach(function (token) {
-    form += token.surface_form;
+const defaultOptions = {
+  rulePath: __dirname + "/../dict/fukushi.yml"
+};
+
+function loadDictionaries(rulePath, baseDir) {
+  if (typeof rulePath === "undefined" || rulePath ==="") {
+    return null;
+  }
+  const expandedRulePath = untildify(rulePath);
+  const dictionaries = [];
+  const data = yaml.safeLoad(fs.readFileSync(path.resolve(baseDir, expandedRulePath), "utf8"));
+
+  data.dict.forEach(function (item) {
+    var form = "";
+    item.tokens.forEach(function (token) {
+      form += token.surface_form;
+    });
+    dictionaries.push({
+      message: data.message + ": \"" + form + "\" => \"" + item.expected + "\"",
+      fix: item.expected,
+      tokens: item.tokens
+    });
   });
-  dictionaries.push({
-    message: data.message + ": \"" + form + "\" => \"" + item.expected + "\"",
-    fix: item.expected,
-    tokens: item.tokens
-  });
-});
 
-const matchAll = createMatcher(dictionaries);
+  return dictionaries;
+}
 
-function reporter(context, options = {}) {
+function reporter(context, userOptions = {}) {
+  const options = Object.assign(defaultOptions, userOptions);
+  const matchAll = createMatcher(loadDictionaries(options.rulePath, getConfigBaseDir(context)));
   const {Syntax, RuleError, report, getSource, fixer} = context;
   return {
     [Syntax.Str](node){ // "Str" node
@@ -60,6 +75,15 @@ function getIndexFromTokens(tokenIndex, actualTokens) {
   }
   return index;
 }
+
+// from https://github.com/textlint-rule/textlint-rule-prh/blob/master/src/textlint-rule-prh.js#L147
+const getConfigBaseDir = context => {
+  if (typeof context.getConfigBaseDir === "function") {
+    return context.getConfigBaseDir() || process.cwd();
+  }
+  const textlintRcFilePath = context.config ? context.config.configFile : null;
+  return textlintRcFilePath ? path.dirname(textlintRcFilePath) : process.cwd();
+};
 
 module.exports = {
   linter: reporter,
