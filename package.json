@@ -31,7 +31,7 @@
   "description": "Check easy-to-read Fukushi(adverbs) written in Hiragana than Kanji.",
   "dependencies": {
     "js-yaml": "^3.8.2",
-    "kuromojin": "^1.3.2",
+    "kuromojin": "^2.1.1",
     "morpheme-match-all": "^1.1.0",
     "untildify": "^4.0.0"
   }
