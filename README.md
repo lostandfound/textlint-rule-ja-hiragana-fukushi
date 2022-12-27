@@ -120,7 +120,6 @@ Test textlint rule by [textlint-tester](https://github.com/textlint/textlint-tes
 | 一先ず | ひとまず |
 | 独りでに | ひとりでに |
 | 殆ど | ほとんど |
-| 正しく | まさしく |
 | 正に | まさに |
 | 況して | まして |
 | 先ず | まず |

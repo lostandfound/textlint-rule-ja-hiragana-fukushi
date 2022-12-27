@@ -96,17 +96,6 @@ tester.run("rule", rule, {
         },
         // custom dictionary
         {
-            text: "正しく記載されていなかった。",
-            output: "まさしく記載されていなかった。",
-            errors: [
-                {
-                    message: "ひらがなで表記したほうが読みやすい副詞: \"正しく\" => \"まさしく\"",
-                    line: 1,
-                    column: 1
-                }
-            ]
-        },
-        {
             text: "僕は生憎風流人よりもずつと多慾に生まれついてゐる。",
             output: "僕はあいにく風流人よりもずつと多慾に生まれついてゐる。",
             options: {
