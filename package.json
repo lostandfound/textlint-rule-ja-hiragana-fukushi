@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "eslint": "^6.6.0",
-    "textlint-scripts": "^1.2.2"
+    "textlint-scripts": "^12.5.0"
   },
   "name": "textlint-rule-ja-hiragana-fukushi",
   "directories": {
